@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primul Site</title>
+</head>
+
+<body>
+
+    <header>
+        <a href="../index.html">
+            Trees
+            <i class="fas fa-tree logo"></i>
+        </a>
+        <i id="menu-btn" class="fas fa-bars" onclick="show()"></i>
+        
+    </header>
+
+    <div class="page-container">
+
+        <aside id="side-menu">
+            <a href="../index.html">Home</a>
+            <a href="../pages/events.html">Evenimente</a>
+            <a href="../pages/contacts.html">Contacte</a>
+        </aside>
+
+        <main>
+            <h2 class="title">Contacte</h2>
+
+            <div class="row">
+                <div class="col-50">
+                    <h3>Contacteaza-ne daca:</h3>
+
+                    <ul class="contact-list">
+                        <li>Doresti sa adaugi un eveniment</li>
+                        <li>Vrei sa participi la un voluntariat</li>
+                        <li>Doresti sa vezi daca merge site-ul</li>
+                        <li>Ai sugestii/propuneri</li>
+                    </ul>
+
+                </div>
+
+                <div class="col-50">
+                    <h3>Date de contact:</h3>
+
+                    <ul class="contact-list">
+                        <li>Adresa: x:234 y:198 z:98</li>
+                        <li>Telefon: 1234 567 890</li>
+                        <li>Ore lucru: 8:00 - 16:00</li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-50">
+                    <iframe class="map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2718.0292798625956!2d21.9296860776384!3d47.0592759711448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x474647e0cede112d%3A0x8a63257c1defbc2b!2sStrada%20Episcop%20Roman%20Ciorogariu%2010%2C%20Oradea!5e0!3m2!1sro!2sro!4v1714477036913!5m2!1sro!2sro"
+                        style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <div class="col-50">
+                    <div class="contact-form">
+                        <form>
+                            <h3 class="centered">Lasa un mesaj</h3>
+                            <input type="text" placeholder="Nume" required>
+                            <input type="email" placeholder="Email" required>
+                            <textarea placeholder="Mesaj" rows="3" required></textarea>
+                            <input type="submit" placeholder="Trimite">
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+        </main>
+
+    </div>
+
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
